@@ -1,0 +1,70 @@
+.wrapper {
+  background: url(bg.jpg);
+  background-size: cover;
+}
+
+.phone {
+  background: url(bg.jpg);
+  background-size: cover;
+}
+
+.phone::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.slide {
+  -webkit-appearance: none;
+  width: 80%;
+  /* background-color: red; */
+  opacity: 0.5;
+  background-color: transparent;
+  transition: opacity 0.3s ease-in;
+}
+
+.slide:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.slide::-webkit-slider-thumb {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+.slide::-moz-range-thumb {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+.time-container {
+  top: 50px;
+  height: 80px;
+  width: 80%;
+  background-color: rgba(51, 51, 51, 0.34);
+  backdrop-filter: blur(10px);
+}
+
+.notification {
+  background-color: rgba(122, 122, 122, 0.474);
+  backdrop-filter: blur(10px);
+}
+
+.appIcon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+}
